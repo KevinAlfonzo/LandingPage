@@ -1,0 +1,214 @@
+body { 
+    background-color: #ffffff;
+    background-image: linear-gradient(62deg, #ffffff 0%, #f5f1f1 50%, #ffffff 100%);
+}
+.Encabezado {
+    background-color: #212121;
+    height: 22vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+#Logotipo {
+    height: 120px;
+    float: left;
+    position: fixed;
+    top: 6px;
+    left: 20px;
+}
+ul.Barra li {
+    display: inline;
+    float: right;
+    padding-left: 20px;
+    font-family: ProximaNovo;
+    font-size: 22px;
+    z-index: 2;
+    position: relative;
+    left: -30px;
+    top: 41px;
+}
+.boton {
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    padding: 4px; /*espacio alrededor texto*/
+    background:#ffffff; /*color botón*/
+    color: #212121; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-family: 'ProximaNovo'; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition:all .4s ease-in-out ;
+    
+}
+#Titulo {
+    font-weight: 500;
+    position: fixed;
+    float: right;
+    top: 28px;
+    left: 150px;
+    font-family: ProximaNovo;
+    font-size: 34px;
+    color: white;
+}
+.banner p { 
+    width: 750px;
+    color: white;
+    font-family:  ProximaNovo;
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 215px;
+    left: 50px;
+    z-index: 0;
+}
+.banner img {
+    width: 100%;
+    z-index: 0;
+
+}
+.banner a {
+    width: 500px;
+    position: absolute;
+    top: 300px;
+    left: 830px;
+    z-index: 0;
+
+}
+.container a {
+    color: #212121;
+    margin-left: 50px;
+    font-family: ProximaNovo;
+    font-size: 34px;
+}
+.container img {
+    height: 230px;
+    margin-left: 50px;
+}
+.container p {
+    height: 150px;
+    width: 65%;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+    float: right;
+    margin-right: 55px;
+}
+.cajanegra {
+    height: 280px;
+}
+.cajanegra p {
+    height: 150px;
+    width: 50%;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 50px;
+}
+.cajanegra a {
+    color: #212121;
+    margin-left: 50px;
+    font-family: ProximaNovo;
+    font-size: 34px;
+}
+.cajanegra img {
+    height: 200px;
+    position: absolute;
+    top: 1235px;
+    left: 800px;
+    z-index: 0;
+}
+.dirección p {
+    margin-left: 425px;
+    width: 50%;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: justify;
+}
+.dirección a {
+    color: #212121;
+    margin-left: 50px;
+    font-family: ProximaNovo;
+    font-size: 34px;
+
+}
+.dirección iframe {
+    margin-left: 350px;
+    
+}
+.contenedor a {
+    color: #212121;
+    margin-left: 50px;
+    font-family: ProximaNovo;
+    font-size: 34px;
+}
+.formulario form {
+    width: 25%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 50px;
+}
+.formulario img {
+    height: 300px;
+    position: absolute;
+    top: 2230px;
+    left: 700px;
+}
+.formulario label {
+    font-family: Arial;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+.formulario input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.formulario input:focus { 
+    border: 1px solid #1668C4;
+}
+.formulario input[type="submit"] {
+    margin-bottom: 0;
+    background: #396EB0;
+    color: white;
+    border: none;
+}
+.formulario input[type="submit"]:hover {
+    background: #2E4C6D;
+    cursor: pointer;
+}
+div .redes-sociales h4 {
+    color: #212121;
+    margin-left: 50px;
+    font-family: ProximaNovo;
+    font-size: 20px;
+}
+div .redes-sociales {
+    background-color: #212121;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.redes-sociales a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out;
+}
+.redes-sociales a:hover {
+    transform: scale(1.2);
+}
